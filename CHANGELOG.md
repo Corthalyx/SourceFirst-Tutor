@@ -4,18 +4,30 @@ All notable changes to SourceFirst Tutor are documented in this file.
 
 This project follows a simple versioning convention based on semantic versioning where practical: `MAJOR.MINOR.PATCH`.
 
+## [1.0.1] - 2026-10-27
+
+### Changed
+
+- Generalised assessment generation so it adapts to the learner's subject, level, course, institution, supplied sample papers, rubrics, and requested format.
+- Removed the hard-coded 100-mark assessment blueprint and region-specific examination section labels from the universal skill.
+- Generalised past-paper metadata and question-bank organisation while retaining support for board and institution examinations where applicable.
+- Replaced education-system-specific wording with adaptable, cross-subject terminology throughout the skill and README.
+
+### Preserved
+
+- Source-first learning, very simple explanations, chapter/topic coverage tracking, answer rewriting, source locators, learning-memory records, question banks, fair marking, and mistake review.
+
 ## [1.0.0] - 2026-10-27
 
 ### Added
 
-- Initial public release of the SourceFirst Tutor skill.
-- Source-locked learning rules for learner-provided books, guidebooks, PDFs, images, notes, question papers, typed text, and accessible video/transcript sources.
-- Simple Explain mode, designed to use child-level simplicity without a childish or disrespectful tone.
-- Chapter Clear workflow with source mapping, topic coverage tracking, and chapter completion checks.
+- Initial release of the SourceFirst Tutor skill concept.
+- Source-first rules for supplied books, study guides, PDFs, images, notes, past papers, typed text, and accessible video/transcript sources.
+- Simple Explain mode, using child-level simplicity without a childish or disrespectful tone.
+- Chapter Clear workflow with source mapping and topic coverage tracking.
 - Answer Rewrite mode for preserving source facts and reasoning while simplifying language.
-- Board question bank structure for questions, metadata, and supplied answers.
-- Source-reference requirements for filenames, printed pages, PDF pages, visible line openings, paragraphs, and timestamps when available.
-- Chapter Memory Record and portable Chapter Memory Card guidance for resuming study after a long gap.
-- Full 100-mark model-test structure: 30 MCQs, 15 short questions with any 10 to answer, and 8 creative questions with any 5 to answer.
-- Answer reveal, source-based explanations, fair marking rubrics, handwritten-answer review guidance, and mistake review.
-- Platform and source-access limitations, with explicit rules against fabricated sources, memory, and citations.
+- Past-paper/question-bank guidance for questions, metadata, and supplied answers.
+- Source-reference requirements for filenames, printed pages, PDF pages, line openings, paragraphs, and timestamps when available.
+- Learning Memory Record and portable Learning Memory Card guidance for resuming study after a long gap.
+- Assessment workflows, answer reveal, source-based explanations, transparent rubrics, handwritten-answer review, and mistake review.
+- Platform and source-access limitations, including rules against fabricated sources, memory claims, and citations.
