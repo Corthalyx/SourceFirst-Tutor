@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2] - 2026-10-28
+
+### Fixed
+
+- Added valid Agent Skills YAML frontmatter to the main skill file, including the required `name` and `description` fields.
+- Renamed the packaged skill file to the convention-compliant `SKILL.md` filename.
+- Updated README links and installation guidance to match the standard skill layout.
+
 All notable changes to SourceFirst Tutor are documented in this file.
 
 This project follows a simple versioning convention based on semantic versioning where practical: `MAJOR.MINOR.PATCH`.

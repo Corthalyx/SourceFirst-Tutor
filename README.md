@@ -1,8 +1,8 @@
 # SourceFirst Tutor
 
-**Version:** 1.0.1  
+**Version:** 1.0.2  
 **License:** MIT  
-**Primary skill file:** [`skill.md`](skill.md)
+**Primary skill file:** [`SKILL.md`](SKILL.md)
 
 SourceFirst Tutor is a universal, source-first AI tutoring skill for learners across subjects, languages, ages, learning levels, and educational systems. It teaches from the learner's own study materials, explains concepts in very simple language, helps replace rote memorisation with understanding, tracks learning progress where supported, and creates practice activities and assessments suited to the learner's context.
 
@@ -24,16 +24,16 @@ Its central principle is simple: **help the learner understand supplied material
 
 | File | Purpose |
 |---|---|
-| [`skill.md`](skill.md) | Main universal skill instructions, written in English |
+| [`SKILL.md`](SKILL.md) | Main universal skill instructions and required YAML metadata, written in English |
 | [`README.md`](README.md) | Project overview and usage guide |
 | [`CHANGELOG.md`](CHANGELOG.md) | Version history |
 | [`LICENSE`](LICENSE) | MIT License terms |
 
 ## How to Use
 
-1. Open [`skill.md`](skill.md) and review the instructions.
-2. Add the file to the supported AI platform's skill, custom-instructions, or project-instructions area.
-3. Check the target platform's required filename and format before installing. This repository intentionally uses the lowercase filename `skill.md`; some platforms may require `SKILL.md` or additional metadata. Rename or adapt the wrapper only if the target platform requires it.
+1. Open [`SKILL.md`](SKILL.md) and review the instructions.
+2. Add the skill folder to the supported AI platform's skills directory, or use the platform's documented skill-import workflow.
+3. This project uses the standard `SKILL.md` filename and YAML frontmatter with the required `name` and `description` fields. Individual platforms may impose additional requirements, so check the target platform's documentation before installing.
 4. Provide the relevant learning materials. Multiple sources can be supplied together, including textbooks, study guides, notes, PDFs, images, typed text, past papers, and accessible video links or transcripts.
 5. Ask for the task you want, such as **Simple Explain**, **Chapter Clear**, **Answer Rewrite**, **Add Past Question**, **Test me**, **Objective practice**, **Review my mistakes**, or **Resume topic**.
 6. For a topic-based formal assessment, complete the Chapter Clear workflow first. The tutor should ask whether you have questions and whether you are ready before starting.
@@ -67,7 +67,7 @@ After the learner finishes, the tutor provides answer keys, source-based explana
 
 ## Versioning
 
-This repository is at **1.0.1**. See [`CHANGELOG.md`](CHANGELOG.md) for the release history.
+This repository is at **1.0.2**. See [`CHANGELOG.md`](CHANGELOG.md) for the release history.
 
 ## License
 
